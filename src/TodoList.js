@@ -42,6 +42,7 @@ class TodoList extends Component {
         )
     }
     render() {
+        // props 或者 state 状态发生变化 则触发render函数
         return  (
             <Fragment>
                 <div>
