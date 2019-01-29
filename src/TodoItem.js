@@ -12,6 +12,7 @@ class TodoItem extends Component {
     }
     render () {
         const { cotent } = this.props;
+        // return React.createElement('div', {}, 'item');
         return (
             <div onClick={this.handleDeleteItem}>
                 {cotent}
